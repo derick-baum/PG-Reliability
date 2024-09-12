@@ -9,10 +9,10 @@ To undertake replication, you need R. Required packages are listed at the top of
 The folder "PG-Reliability/Data and Spreadsheets" contains a data frame (SSND_PGitems_Replication_Data.dta) for the replication data. It contains 998 rows (one for each respondent, excluding those who did not provide a valid response to one or more of the 30 PG items) and 31 columns, as follows:
 v48_1 to v48_30 provide information on the relational criterion that links a respondent to an occupation, with values
 
-  0, no connection
-  1, connection via a relative (and possibly via a friend or acquaintance as well)
-  2, connection via a friend (and possibly via an acquaintance as well), but not a relative
-  3, connection via an acquaintance, but not via a relative or friend
+  0: no connection
+  1: connection via a relative (and possibly via a friend or acquaintance as well)
+  2: connection via a friend (and possibly via an acquaintance as well), but not a relative
+  3: connection via an acquaintance, but not via a relative or friend
 
 PS_EDU is an indicator variable scored 1 if the respondent has some post-secondary education.
 
